@@ -5,10 +5,10 @@ body {
 	background-color: #BEBEBE;
 }
 .main-container {
-	background-color: #D3D3D3;
+	background-color: #E4E4E4;
 	font-size: 16px;
 	font-family: 'Courier New';
-	font-weight: bold;
+	font-weight: 900;
 	letter-spacing: 1px;
 	margin: auto;
 	max-width: 600px;
@@ -33,4 +33,22 @@ body {
 	max-width: 600px; 
 	margin: auto; 
 	padding: 10px;
+}
+.chat {
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-family: 'Courier New', monospace;
+	font-weight: 900;
+
+	word-break: break-word;
+}
+.chat-box {
+	max-width: 600px;
+	outline-color: #A8A8A8;
+	outline-width: 1px;
+	outline-style: dashed;
+	text-align: left;
+	vertical-align: middle;
+	margin: auto; 
+	padding: 20px;
 }
