@@ -39,9 +39,10 @@ body {
 	letter-spacing: 1px;
 	font-family: 'Courier New';
 	word-break: break-word;
+	text-align: left;
 }
 .chat-box {
-	max-width: 600px;
+	max-width: 500px;
 	outline-color: #A8A8A8;
 	outline-width: 1px;
 	outline-style: dashed;
