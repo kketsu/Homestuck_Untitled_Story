@@ -5,6 +5,30 @@
 		<link rel="icon" type="image/x-icon" href="imgassets/pageicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/general.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		    <script>
+        // Store the last visited page
+        window.addEventListener('beforeunload', function () {
+            document.cookie = "lastPage=" + window.location.pathname + "; path=/";
+        });
+
+        // Redirect to the last visited page if the current page is the index page
+        window.addEventListener('load', function () {
+            var cookies = document.cookie.split(';');
+            var lastPage = null;
+
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i].trim();
+                if (cookie.startsWith('lastPage=')) {
+                    lastPage = cookie.substring('lastPage='.length);
+                    break;
+                }
+            }
+
+            if (lastPage && window.location.pathname === '/index.html') {
+                window.location.href = lastPage;
+            }
+        });
+    </script>
 	</head>
 
 <body>
