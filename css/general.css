@@ -37,9 +37,7 @@ body {
 .chat {
 	font-size: 13px;
 	letter-spacing: 1px;
-	font-family: 'Courier New', monospace;
-	font-weight: 900;
-
+	font-family: 'Courier New';
 	word-break: break-word;
 }
 .chat-box {
