@@ -1,53 +1,41 @@
 body {
-	background-color: #5F5F5F;
-}
-.sub-container {
-	background-color: #BEBEBE;
-}
-.main-container {
-	background-color: #E4E4E4;
-	font-size: 16px;
+	background-color: DimGray;
 	font-family: 'Courier New';
-	font-weight: 900;
-	letter-spacing: 1px;
-	margin: auto;
-	max-width: 600px;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 20px;
+}
+footer {
+	font-size: 10px;
 	text-align: center;
-	vertical-align: middle;
+	font-weight: bold;
+	padding: 15px;
 }
-.next-link {
-	font-family: 'Courier New';
-	font-size: 24px;
-	padding-bottom: 25px;
-	padding-top: 20px;
-	text-align: left;
+.main-box {
+	background-color: Silver;
+	margin: auto;
 }
-.footer {
-	font-size: 13px; 
-	text-align: center; 
-	font-family: 'Courier New'; 
-	vertical-align: middle; 
-	max-width: 600px; 
-	margin: auto; 
+.second-box {
+	background-color: LightGray;
+	max-width: 600px;
+	margin: auto;
+	text-align: center;
 	padding: 10px;
 }
-.chat {
-	font-size: 13px;
-	letter-spacing: 1px;
-	font-family: 'Courier New';
-	word-break: break-word;
-	text-align: left;
+.narrative-text {
+	font-size: 14px;
+	font-weight: bold;
+	word-break: normal;
+	padding-left: 20px;
+	padding-right: 20px;
 }
-.chat-box {
-	max-width: 500px;
-	outline-color: #A8A8A8;
-	outline-width: 1px;
-	outline-style: dashed;
+.next-link {
 	text-align: left;
-	vertical-align: middle;
-	margin: auto; 
-	padding: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+.options {
+	font-size: 10px;
+	font-family: 'Arial';
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 5px;
 }
