@@ -43,6 +43,19 @@ footer {
     padding: var(--padding-medium);
 }
 
+footer img {
+  animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .main-box {
     background-color: var(--main-box-bg);
     display: flex;
@@ -58,6 +71,7 @@ footer {
     flex-direction: column;
     flex-grow: 1;
     justify-content: center;
+	min-width: 600px;
 	max-width: 600px;
     text-align: center;
     padding: var(--padding-small);
